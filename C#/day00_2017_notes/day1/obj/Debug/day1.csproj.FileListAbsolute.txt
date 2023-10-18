@@ -1,0 +1,13 @@
+D:\小程序实验\C#\test\day1\bin\Debug\day1.exe.config
+D:\小程序实验\C#\test\day1\bin\Debug\day1.exe
+D:\小程序实验\C#\test\day1\bin\Debug\day1.pdb
+D:\小程序实验\C#\test\day1\obj\Debug\day1.csprojAssemblyReference.cache
+D:\小程序实验\C#\test\day1\obj\Debug\day1.csproj.CoreCompileInputs.cache
+D:\小程序实验\C#\test\day1\obj\Debug\day1.exe
+D:\小程序实验\C#\test\day1\obj\Debug\day1.pdb
+D:\C#\test\day1\bin\Debug\day1.exe.config
+D:\C#\test\day1\bin\Debug\day1.exe
+D:\C#\test\day1\bin\Debug\day1.pdb
+D:\C#\test\day1\obj\Debug\day1.csproj.CoreCompileInputs.cache
+D:\C#\test\day1\obj\Debug\day1.exe
+D:\C#\test\day1\obj\Debug\day1.pdb

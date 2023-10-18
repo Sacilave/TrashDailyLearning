@@ -1,0 +1,7 @@
+D:\C#\test\一些神奇的小问题和思考\bin\Debug\一些神奇的小问题和思考.exe.config
+D:\C#\test\一些神奇的小问题和思考\bin\Debug\一些神奇的小问题和思考.exe
+D:\C#\test\一些神奇的小问题和思考\bin\Debug\一些神奇的小问题和思考.pdb
+D:\C#\test\一些神奇的小问题和思考\obj\Debug\一些神奇的小问题和思考.csprojAssemblyReference.cache
+D:\C#\test\一些神奇的小问题和思考\obj\Debug\一些神奇的小问题和思考.csproj.CoreCompileInputs.cache
+D:\C#\test\一些神奇的小问题和思考\obj\Debug\一些神奇的小问题和思考.exe
+D:\C#\test\一些神奇的小问题和思考\obj\Debug\一些神奇的小问题和思考.pdb
