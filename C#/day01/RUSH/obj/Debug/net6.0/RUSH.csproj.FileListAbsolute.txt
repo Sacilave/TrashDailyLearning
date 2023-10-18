@@ -1,0 +1,14 @@
+D:\TECH\C#\rushrush\RUSH\bin\Debug\net6.0\RUSH.exe
+D:\TECH\C#\rushrush\RUSH\bin\Debug\net6.0\RUSH.deps.json
+D:\TECH\C#\rushrush\RUSH\bin\Debug\net6.0\RUSH.runtimeconfig.json
+D:\TECH\C#\rushrush\RUSH\bin\Debug\net6.0\RUSH.dll
+D:\TECH\C#\rushrush\RUSH\bin\Debug\net6.0\RUSH.pdb
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.GeneratedMSBuildEditorConfig.editorconfig
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.AssemblyInfoInputs.cache
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.AssemblyInfo.cs
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.csproj.CoreCompileInputs.cache
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.dll
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\refint\RUSH.dll
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.pdb
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\RUSH.genruntimeconfig.cache
+D:\TECH\C#\rushrush\RUSH\obj\Debug\net6.0\ref\RUSH.dll
