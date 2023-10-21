@@ -1,0 +1,508 @@
+<Event(17-VideoExpose {})>
+<Event(16-VideoResize {'size': (480, 700), 'w': 480, 'h': 700})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(4-MouseMotion {'pos': (479, 314), 'rel': (480, 315), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (367, 433), 'rel': (-112, 119), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (364, 433), 'rel': (-3, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (360, 424), 'rel': (-4, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (361, 424), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (363, 423), 'rel': (2, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (365, 422), 'rel': (2, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (368, 421), 'rel': (3, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (375, 418), 'rel': (7, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (384, 412), 'rel': (9, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (393, 405), 'rel': (9, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (403, 393), 'rel': (10, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (414, 372), 'rel': (11, -21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (428, 339), 'rel': (14, -33), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (442, 287), 'rel': (14, -52), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 236), 'rel': (13, -51), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (469, 193), 'rel': (14, -43), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (477, 158), 'rel': (8, -35), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (479, 143), 'rel': (2, -15), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (479, 108), 'rel': (0, -35), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (474, 99), 'rel': (-5, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (468, 94), 'rel': (-6, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (462, 89), 'rel': (-6, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 85), 'rel': (-7, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (447, 82), 'rel': (-8, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (438, 79), 'rel': (-9, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (429, 76), 'rel': (-9, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (419, 73), 'rel': (-10, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (407, 71), 'rel': (-12, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (395, 68), 'rel': (-12, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (381, 63), 'rel': (-14, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (369, 61), 'rel': (-12, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (358, 56), 'rel': (-11, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (348, 54), 'rel': (-10, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (341, 52), 'rel': (-7, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (333, 50), 'rel': (-8, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (326, 47), 'rel': (-7, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (323, 46), 'rel': (-3, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (315, 42), 'rel': (-8, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (306, 39), 'rel': (-9, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (294, 34), 'rel': (-12, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (283, 29), 'rel': (-11, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (273, 26), 'rel': (-10, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (262, 24), 'rel': (-11, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (251, 19), 'rel': (-11, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (243, 19), 'rel': (-8, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (237, 17), 'rel': (-6, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (231, 15), 'rel': (-6, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (230, 15), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (229, 14), 'rel': (-1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (228, 12), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 12), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 11), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 10), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 9), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 8), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 7), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 6), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 5), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 3), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 2), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 0), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(17-VideoExpose {})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (235, 4), 'rel': (8, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (238, 10), 'rel': (3, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (240, 15), 'rel': (2, 5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (242, 21), 'rel': (2, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (245, 32), 'rel': (3, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (249, 46), 'rel': (4, 14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (257, 61), 'rel': (8, 15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (266, 84), 'rel': (9, 23), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (276, 105), 'rel': (10, 21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (286, 130), 'rel': (10, 25), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (297, 156), 'rel': (11, 26), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (309, 177), 'rel': (12, 21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (320, 198), 'rel': (11, 21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (328, 218), 'rel': (8, 20), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (332, 234), 'rel': (4, 16), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (334, 252), 'rel': (2, 18), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (334, 271), 'rel': (0, 19), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (333, 294), 'rel': (-1, 23), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (325, 316), 'rel': (-8, 22), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (308, 343), 'rel': (-17, 27), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (286, 369), 'rel': (-22, 26), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (262, 385), 'rel': (-24, 16), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (234, 397), 'rel': (-28, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (192, 400), 'rel': (-42, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (143, 400), 'rel': (-49, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (84, 400), 'rel': (-59, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (20, 391), 'rel': (-64, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (0, 381), 'rel': (-20, -10), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (2, 149), 'rel': (2, -232), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (64, 135), 'rel': (62, -14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (135, 129), 'rel': (71, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (205, 129), 'rel': (70, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (284, 130), 'rel': (79, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (361, 145), 'rel': (77, 15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (442, 167), 'rel': (81, 22), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (479, 188), 'rel': (37, 21), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (463, 402), 'rel': (-16, 214), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (390, 402), 'rel': (-73, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (303, 399), 'rel': (-87, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (210, 383), 'rel': (-93, -16), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (127, 364), 'rel': (-83, -19), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (43, 340), 'rel': (-84, -24), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (0, 311), 'rel': (-43, -29), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (51, 199), 'rel': (51, -112), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (134, 199), 'rel': (83, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (228, 213), 'rel': (94, 14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (310, 224), 'rel': (82, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (396, 242), 'rel': (86, 18), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (461, 263), 'rel': (65, 21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (479, 282), 'rel': (18, 19), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (474, 354), 'rel': (-5, 72), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (412, 368), 'rel': (-62, 14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (341, 374), 'rel': (-71, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (258, 374), 'rel': (-83, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (158, 374), 'rel': (-100, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (51, 362), 'rel': (-107, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (0, 341), 'rel': (-51, -21), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (87, 199), 'rel': (87, -142), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (174, 199), 'rel': (87, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (248, 204), 'rel': (74, 5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (317, 215), 'rel': (69, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (369, 223), 'rel': (52, 8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (409, 228), 'rel': (40, 5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (424, 230), 'rel': (15, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (425, 230), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (426, 231), 'rel': (1, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (436, 234), 'rel': (10, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (445, 240), 'rel': (9, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (451, 240), 'rel': (6, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (469, 240), 'rel': (18, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (479, 240), 'rel': (10, 0), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(1-ActiveEvent {'gain': 1, 'state': 1})>
+<Event(4-MouseMotion {'pos': (477, 376), 'rel': (-2, 136), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (430, 380), 'rel': (-47, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (381, 380), 'rel': (-49, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (333, 380), 'rel': (-48, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (286, 375), 'rel': (-47, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 363), 'rel': (-51, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (186, 352), 'rel': (-49, -11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (140, 338), 'rel': (-46, -14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (107, 328), 'rel': (-33, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (90, 321), 'rel': (-17, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (79, 316), 'rel': (-11, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (73, 311), 'rel': (-6, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (72, 309), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (72, 307), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (72, 303), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (72, 298), 'rel': (0, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (73, 290), 'rel': (1, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (75, 282), 'rel': (2, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (79, 273), 'rel': (4, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (81, 265), 'rel': (2, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (83, 258), 'rel': (2, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (84, 253), 'rel': (1, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (84, 251), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (84, 250), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (84, 250), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (84, 250), 'button': 1})>
+<Event(4-MouseMotion {'pos': (85, 250), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (89, 243), 'rel': (4, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (95, 229), 'rel': (6, -14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (102, 209), 'rel': (7, -20), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (110, 189), 'rel': (8, -20), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (115, 173), 'rel': (5, -16), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (126, 152), 'rel': (11, -21), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (131, 139), 'rel': (5, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (138, 127), 'rel': (7, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (144, 119), 'rel': (6, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (146, 115), 'rel': (2, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (149, 112), 'rel': (3, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (151, 110), 'rel': (2, -2), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (151, 110), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (151, 110), 'button': 1})>
+<Event(4-MouseMotion {'pos': (152, 110), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (154, 109), 'rel': (2, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (160, 107), 'rel': (6, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (166, 105), 'rel': (6, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (177, 102), 'rel': (11, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (185, 100), 'rel': (8, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (194, 99), 'rel': (9, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (205, 94), 'rel': (11, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (219, 93), 'rel': (14, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (236, 89), 'rel': (17, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (256, 88), 'rel': (20, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (282, 83), 'rel': (26, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (306, 79), 'rel': (24, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (327, 75), 'rel': (21, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (340, 73), 'rel': (13, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (351, 70), 'rel': (11, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (355, 70), 'rel': (4, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (358, 70), 'rel': (3, 0), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (358, 70), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (358, 70), 'button': 1})>
+<Event(4-MouseMotion {'pos': (359, 70), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (359, 73), 'rel': (0, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (359, 83), 'rel': (0, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (359, 93), 'rel': (0, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (359, 105), 'rel': (0, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (359, 120), 'rel': (0, 15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (358, 133), 'rel': (-1, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (354, 151), 'rel': (-4, 18), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (352, 164), 'rel': (-2, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (349, 181), 'rel': (-3, 17), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (347, 193), 'rel': (-2, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (346, 206), 'rel': (-1, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (346, 217), 'rel': (0, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (345, 224), 'rel': (-1, 7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (345, 228), 'rel': (0, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (343, 231), 'rel': (-2, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (343, 232), 'rel': (0, 1), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (343, 232), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (343, 232), 'button': 1})>
+<Event(4-MouseMotion {'pos': (343, 233), 'rel': (0, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (343, 239), 'rel': (0, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (342, 246), 'rel': (-1, 7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (341, 257), 'rel': (-1, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (340, 266), 'rel': (-1, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (337, 278), 'rel': (-3, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (331, 293), 'rel': (-6, 15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (327, 305), 'rel': (-4, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (321, 319), 'rel': (-6, 14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (315, 332), 'rel': (-6, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (310, 341), 'rel': (-5, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (304, 351), 'rel': (-6, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (302, 355), 'rel': (-2, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (299, 357), 'rel': (-3, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (298, 358), 'rel': (-1, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (297, 359), 'rel': (-1, 1), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (297, 359), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (297, 359), 'button': 1})>
+<Event(4-MouseMotion {'pos': (295, 360), 'rel': (-2, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (292, 360), 'rel': (-3, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (287, 361), 'rel': (-5, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (283, 363), 'rel': (-4, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (275, 364), 'rel': (-8, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (269, 366), 'rel': (-6, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (264, 368), 'rel': (-5, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (259, 369), 'rel': (-5, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (252, 369), 'rel': (-7, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (250, 369), 'rel': (-2, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (247, 369), 'rel': (-3, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (245, 370), 'rel': (-2, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (245, 371), 'rel': (0, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (244, 371), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (242, 371), 'rel': (-2, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (240, 371), 'rel': (-2, 0), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (238, 371), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (238, 371), 'button': 1})>
+<Event(4-MouseMotion {'pos': (237, 371), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (236, 371), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 369), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 368), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 365), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 361), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (235, 358), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (234, 355), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (233, 348), 'rel': (-1, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (232, 344), 'rel': (-1, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (229, 338), 'rel': (-3, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 331), 'rel': (-2, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 324), 'rel': (0, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (225, 318), 'rel': (-2, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (225, 313), 'rel': (0, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (225, 309), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (224, 303), 'rel': (-1, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (224, 300), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (223, 297), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (223, 295), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (223, 294), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (223, 294), 'button': 1})>
+<Event(4-MouseMotion {'pos': (223, 292), 'rel': (0, -2), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (223, 290), 'rel': (0, -2), 'buttons': (1, 0, 0)})>
+<Event(6-MouseButtonUp {'pos': (223, 287), 'button': 1})>
+<Event(4-MouseMotion {'pos': (223, 278), 'rel': (0, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (223, 270), 'rel': (0, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (225, 258), 'rel': (2, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (227, 246), 'rel': (2, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (234, 228), 'rel': (7, -18), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (240, 213), 'rel': (6, -15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (246, 198), 'rel': (6, -15), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (253, 187), 'rel': (7, -11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (259, 177), 'rel': (6, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (263, 174), 'rel': (4, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (268, 170), 'rel': (5, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (271, 167), 'rel': (3, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (275, 166), 'rel': (4, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (277, 165), 'rel': (2, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (278, 165), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (281, 165), 'rel': (3, 0), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (282, 165), 'button': 1})>
+<Event(4-MouseMotion {'pos': (283, 165), 'rel': (1, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (284, 165), 'rel': (1, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (287, 165), 'rel': (3, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (288, 165), 'rel': (1, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (290, 165), 'rel': (2, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (292, 165), 'rel': (2, 0), 'buttons': (1, 0, 0)})>
+<Event(4-MouseMotion {'pos': (295, 165), 'rel': (3, 0), 'buttons': (1, 0, 0)})>
+<Event(6-MouseButtonUp {'pos': (300, 165), 'button': 1})>
+<Event(4-MouseMotion {'pos': (307, 165), 'rel': (7, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (315, 168), 'rel': (8, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (327, 174), 'rel': (12, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (342, 180), 'rel': (15, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (358, 191), 'rel': (16, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (375, 197), 'rel': (17, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (391, 207), 'rel': (16, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (407, 216), 'rel': (16, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (416, 222), 'rel': (9, 6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (422, 229), 'rel': (6, 7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (427, 232), 'rel': (5, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (430, 241), 'rel': (3, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (431, 249), 'rel': (1, 8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (431, 257), 'rel': (0, 8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (430, 269), 'rel': (-1, 12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (428, 279), 'rel': (-2, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (423, 290), 'rel': (-5, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (421, 299), 'rel': (-2, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (417, 308), 'rel': (-4, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (415, 312), 'rel': (-2, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (412, 316), 'rel': (-3, 4), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (412, 316), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (412, 316), 'button': 1})>
+<Event(4-MouseMotion {'pos': (411, 317), 'rel': (-1, 1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (408, 319), 'rel': (-3, 2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (403, 323), 'rel': (-5, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (399, 326), 'rel': (-4, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (391, 331), 'rel': (-8, 5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (378, 341), 'rel': (-13, 10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (367, 349), 'rel': (-11, 8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (351, 360), 'rel': (-16, 11), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (335, 373), 'rel': (-16, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (321, 382), 'rel': (-14, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (302, 395), 'rel': (-19, 13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (290, 404), 'rel': (-12, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (276, 413), 'rel': (-14, 9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (265, 420), 'rel': (-11, 7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (259, 424), 'rel': (-6, 4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (253, 427), 'rel': (-6, 3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (250, 427), 'rel': (-3, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (249, 427), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(5-MouseButtonDown {'pos': (249, 427), 'button': 1})>
+<Event(6-MouseButtonUp {'pos': (249, 427), 'button': 1})>
+<Event(4-MouseMotion {'pos': (248, 427), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '', 'key': 97, 'mod': 0, 'scancode': 30})>
+<Event(3-KeyUp {'key': 97, 'mod': 0, 'scancode': 30})>
+<Event(4-MouseMotion {'pos': (247, 427), 'rel': (-1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (247, 425), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (248, 424), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (249, 422), 'rel': (1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (251, 419), 'rel': (2, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (252, 418), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (252, 417), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (253, 416), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (254, 415), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (255, 413), 'rel': (1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (256, 412), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (257, 411), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (258, 410), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (258, 409), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (259, 409), 'rel': (1, 0), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (260, 408), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (261, 407), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (261, 406), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(2-KeyDown {'unicode': '', 'key': 98, 'mod': 0, 'scancode': 48})>
+<Event(3-KeyUp {'key': 98, 'mod': 0, 'scancode': 48})>
+<Event(2-KeyDown {'unicode': '', 'key': 99, 'mod': 0, 'scancode': 46})>
+<Event(3-KeyUp {'key': 99, 'mod': 0, 'scancode': 46})>
+<Event(2-KeyDown {'unicode': '', 'key': 100, 'mod': 0, 'scancode': 32})>
+<Event(3-KeyUp {'key': 100, 'mod': 0, 'scancode': 32})>
+<Event(2-KeyDown {'unicode': '', 'key': 101, 'mod': 0, 'scancode': 18})>
+<Event(3-KeyUp {'key': 101, 'mod': 0, 'scancode': 18})>
+<Event(2-KeyDown {'unicode': '', 'key': 102, 'mod': 0, 'scancode': 33})>
+<Event(3-KeyUp {'key': 102, 'mod': 0, 'scancode': 33})>
+<Event(2-KeyDown {'unicode': '', 'key': 103, 'mod': 0, 'scancode': 34})>
+<Event(3-KeyUp {'key': 103, 'mod': 0, 'scancode': 34})>
+<Event(2-KeyDown {'unicode': '', 'key': 104, 'mod': 0, 'scancode': 35})>
+<Event(3-KeyUp {'key': 104, 'mod': 0, 'scancode': 35})>
+<Event(2-KeyDown {'unicode': '', 'key': 105, 'mod': 0, 'scancode': 23})>
+<Event(3-KeyUp {'key': 105, 'mod': 0, 'scancode': 23})>
+<Event(2-KeyDown {'unicode': '', 'key': 106, 'mod': 0, 'scancode': 36})>
+<Event(3-KeyUp {'key': 106, 'mod': 0, 'scancode': 36})>
+<Event(2-KeyDown {'unicode': '', 'key': 107, 'mod': 0, 'scancode': 37})>
+<Event(3-KeyUp {'key': 107, 'mod': 0, 'scancode': 37})>
+<Event(2-KeyDown {'unicode': '', 'key': 108, 'mod': 0, 'scancode': 38})>
+<Event(3-KeyUp {'key': 108, 'mod': 0, 'scancode': 38})>
+<Event(2-KeyDown {'unicode': '', 'key': 109, 'mod': 0, 'scancode': 50})>
+<Event(3-KeyUp {'key': 109, 'mod': 0, 'scancode': 50})>
+<Event(2-KeyDown {'unicode': '', 'key': 110, 'mod': 0, 'scancode': 49})>
+<Event(3-KeyUp {'key': 110, 'mod': 0, 'scancode': 49})>
+<Event(2-KeyDown {'unicode': '', 'key': 111, 'mod': 0, 'scancode': 24})>
+<Event(3-KeyUp {'key': 111, 'mod': 0, 'scancode': 24})>
+<Event(2-KeyDown {'unicode': '', 'key': 112, 'mod': 0, 'scancode': 25})>
+<Event(3-KeyUp {'key': 112, 'mod': 0, 'scancode': 25})>
+<Event(2-KeyDown {'unicode': '', 'key': 113, 'mod': 0, 'scancode': 16})>
+<Event(3-KeyUp {'key': 113, 'mod': 0, 'scancode': 16})>
+<Event(2-KeyDown {'unicode': '', 'key': 105, 'mod': 0, 'scancode': 23})>
+<Event(3-KeyUp {'key': 105, 'mod': 0, 'scancode': 23})>
+<Event(2-KeyDown {'unicode': '', 'key': 115, 'mod': 0, 'scancode': 31})>
+<Event(3-KeyUp {'key': 115, 'mod': 0, 'scancode': 31})>
+<Event(2-KeyDown {'unicode': '', 'key': 116, 'mod': 0, 'scancode': 20})>
+<Event(3-KeyUp {'key': 116, 'mod': 0, 'scancode': 20})>
+<Event(2-KeyDown {'unicode': '', 'key': 117, 'mod': 0, 'scancode': 22})>
+<Event(3-KeyUp {'key': 117, 'mod': 0, 'scancode': 22})>
+<Event(2-KeyDown {'unicode': '', 'key': 118, 'mod': 0, 'scancode': 47})>
+<Event(3-KeyUp {'key': 118, 'mod': 0, 'scancode': 47})>
+<Event(2-KeyDown {'unicode': '', 'key': 119, 'mod': 0, 'scancode': 17})>
+<Event(3-KeyUp {'key': 119, 'mod': 0, 'scancode': 17})>
+<Event(2-KeyDown {'unicode': '', 'key': 120, 'mod': 0, 'scancode': 45})>
+<Event(3-KeyUp {'key': 120, 'mod': 0, 'scancode': 45})>
+<Event(2-KeyDown {'unicode': '', 'key': 121, 'mod': 0, 'scancode': 21})>
+<Event(3-KeyUp {'key': 121, 'mod': 0, 'scancode': 21})>
+<Event(2-KeyDown {'unicode': '', 'key': 122, 'mod': 0, 'scancode': 44})>
+<Event(3-KeyUp {'key': 122, 'mod': 0, 'scancode': 44})>
+<Event(4-MouseMotion {'pos': (262, 405), 'rel': (1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (266, 401), 'rel': (4, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (276, 394), 'rel': (10, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (286, 384), 'rel': (10, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (294, 374), 'rel': (8, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (303, 365), 'rel': (9, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (308, 357), 'rel': (5, -8), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (315, 345), 'rel': (7, -12), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (325, 332), 'rel': (10, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (335, 318), 'rel': (10, -14), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (348, 299), 'rel': (13, -19), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (363, 279), 'rel': (15, -20), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (377, 260), 'rel': (14, -19), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (392, 238), 'rel': (15, -22), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (400, 225), 'rel': (8, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (407, 212), 'rel': (7, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (414, 199), 'rel': (7, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (421, 186), 'rel': (7, -13), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (426, 176), 'rel': (5, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (432, 166), 'rel': (6, -10), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (435, 159), 'rel': (3, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (440, 152), 'rel': (5, -7), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (444, 146), 'rel': (4, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (448, 137), 'rel': (4, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (453, 128), 'rel': (5, -9), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 122), 'rel': (2, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (456, 117), 'rel': (1, -5), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 114), 'rel': (1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 111), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (458, 108), 'rel': (1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (458, 105), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (458, 101), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (459, 98), 'rel': (1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (459, 94), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (460, 88), 'rel': (1, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (460, 84), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (461, 78), 'rel': (1, -6), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (461, 75), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (461, 71), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (461, 67), 'rel': (0, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (460, 63), 'rel': (-1, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (459, 60), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (458, 57), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 54), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 51), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 49), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 48), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (457, 45), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (456, 44), 'rel': (-1, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (456, 42), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 39), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 38), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 37), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 35), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 33), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 31), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 28), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (455, 27), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (454, 23), 'rel': (-1, -4), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (453, 20), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (452, 18), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (452, 15), 'rel': (0, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (451, 12), 'rel': (-1, -3), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (451, 10), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 8), 'rel': (-1, -2), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 7), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 6), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 5), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 4), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 3), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 2), 'rel': (0, -1), 'buttons': (0, 0, 0)})>
+<Event(4-MouseMotion {'pos': (450, 0), 'rel': (0, -2), 'buttons': (0, 0, 0)})>
+<Event(1-ActiveEvent {'gain': 0, 'state': 1})>
+<Event(12-Quit {})>

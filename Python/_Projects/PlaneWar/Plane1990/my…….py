@@ -1,0 +1,72 @@
+import sys
+import pygame
+import random
+from pygame.locals import *
+
+class Plane(pygame.sprite.Sprite):
+    def __init__(self,img_file,location,speed):
+        # 初始化动画精灵
+        super().__init__()
+        self.image = pygame.image.load(img_file).convert_alpha()
+        self.rect = self.image.get_rect()
+        self.rect.left = location[0]
+        self.rect.top = location[1]
+        self.speed = speed
+        self.mask = pygame.mask.from_surface(self.image)
+    def move(self):
+        self.rect = self.rect.move(self.speed)
+        if self.rect.left < 0 or self.rect.right > width:
+            self.speed[0]= -self.speed[0]
+        if self.rect.top < 0 or self.rect.bottom > height:
+            self.speed[1] = -self.speed[1]
+
+def collide_check(group):
+    for each in group:
+        each.move()
+    for each in group:
+        group.remove(each)
+        if pygame.sprite.spritecollide(each,group,False,pygame.sprite.collide_mask):
+            each.speed[0] = -each.speed[0]
+            each.speed[1] = -each.speed[1]
+        group.add(each)
+        screen.blit(each.image,each.rect)
+
+pygame.init()
+# 设置窗口大小
+# FULLSCREEN 全屏模式   DOUBLEBUF 双缓冲模式
+screen_size = width, height =1275,700   #1275,700  450,1000
+screen = pygame.display.set_mode(screen_size)
+# 设置标题
+pygame.display.set_caption("飞机大战")
+
+plane_image = "data/images/me1.png"
+group = pygame.sprite.Group()
+for i in range(10):
+    speed = [random.choice([-2,2]),random.choice([-2,2])]
+    plane = Plane(plane_image,[i*120,100],speed)
+    group.add(plane)
+
+# 建立时间对象
+clock = pygame.time.Clock()
+# 设置背景
+bg = pygame.image.load("data/images/background.png").convert()#bg = pygame.image.load("data/images/background.png").convert()
+
+
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+    screen.blit(bg,(0,0))
+
+    collide_check(group)
+
+    pygame.display.flip()
+    clock.tick(60)
+
+
+
+
+
+
+

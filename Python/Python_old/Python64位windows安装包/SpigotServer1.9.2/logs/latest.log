@@ -1,0 +1,150 @@
+[12:47:29] [Server thread/INFO]: Starting minecraft server version 1.9.2
+[12:47:29] [Server thread/INFO]: Loading properties
+[12:47:29] [Server thread/INFO]: Default game type: CREATIVE
+[12:47:29] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-e000104-4cb3258 (MC: 1.9.2) (Implementing API version 1.9.2-R0.1-SNAPSHOT)
+[12:47:29] [Server thread/INFO]: Debug logging is disabled
+[12:47:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:47:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:47:29] [Server thread/INFO]: Generating keypair
+[12:47:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:47:29] [Server thread/INFO]: Using default channel type
+[12:47:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:47:30] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.8
+[12:47:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:47:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:47:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:47:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:47:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:47:30] [Server thread/INFO]: Preparing level "world"
+[12:47:30] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:47:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mob Spawn Range: 4
+[12:47:30] [Server thread/INFO]: Structure Info Saving: true
+[12:47:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:47:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:47:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:47:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:47:30] [Server thread/INFO]: Random Lighting Updates: false
+[12:47:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:47:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:47:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:47:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:47:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:47:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:47:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:47:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:47:30] [Server thread/INFO]: Max Entity Collisions: 8
+[12:47:30] [Server thread/INFO]: View Distance: 10
+[12:47:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:47:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:47:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mob Spawn Range: 4
+[12:47:30] [Server thread/INFO]: Structure Info Saving: true
+[12:47:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:47:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:47:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:47:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:47:30] [Server thread/INFO]: Random Lighting Updates: false
+[12:47:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:47:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:47:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:47:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:47:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:47:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:47:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:47:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:47:30] [Server thread/INFO]: Max Entity Collisions: 8
+[12:47:30] [Server thread/INFO]: View Distance: 10
+[12:47:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:47:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:47:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:47:30] [Server thread/INFO]: Mob Spawn Range: 4
+[12:47:30] [Server thread/INFO]: Structure Info Saving: true
+[12:47:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:47:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:47:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:47:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:47:30] [Server thread/INFO]: Random Lighting Updates: false
+[12:47:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:47:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:47:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:47:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:47:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:47:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:47:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:47:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:47:30] [Server thread/INFO]: Max Entity Collisions: 8
+[12:47:30] [Server thread/INFO]: View Distance: 10
+[12:47:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:47:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1408286051277467135)
+[12:47:31] [Server thread/INFO]: Preparing spawn area: 89%
+[12:47:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7744524311681805923)
+[12:47:32] [Server thread/INFO]: Preparing spawn area: 74%
+[12:47:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7744524311681805923)
+[12:47:33] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.8
+[12:47:33] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[12:47:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:47:33] [Server thread/INFO]: Done (3.358s)! For help, type "help" or "?"
+[12:47:37] [User Authenticator #1/INFO]: UUID of player I_eat_potato is dc4eac36-c556-3087-99d1-a715eb0b6cbd
+[12:47:37] [Server thread/INFO]: I_eat_potato[/127.0.0.1:11811] logged in with entity id 70 at ([world]-1507.5269606436345, 4.0, 1399.995037244151)
+[12:48:07] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11814.
+[12:48:07] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[12:48:07] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[12:48:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11814.
+[12:48:40] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11815.
+[12:48:40] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[12:48:40] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[12:48:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11815.
+[12:49:43] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11816.
+[12:49:43] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[12:49:43] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[12:49:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11816.
+[12:49:55] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11825.
+[12:49:55] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[12:49:55] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[12:49:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11825.
+[12:50:05] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11833.
+[12:50:05] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[12:50:05] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[12:50:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11833.
+[12:50:17] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11840.
+[12:50:17] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[12:50:17] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[12:50:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11840.
+[12:50:44] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11841.
+[12:50:44] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[12:50:44] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[12:50:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11841.
+[13:13:37] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11969.
+[13:13:37] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[13:13:37] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[13:13:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11969.
+[13:14:57] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11980.
+[13:14:57] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[13:14:57] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[13:14:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11980.
+[13:16:14] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:11992.
+[13:16:14] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[13:16:14] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[13:16:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:11992.

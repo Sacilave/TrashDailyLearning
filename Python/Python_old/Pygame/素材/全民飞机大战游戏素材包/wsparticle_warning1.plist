@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>ui_red ground.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{320,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{320,62}}</string>
+                <key>sourceSize</key>
+                <string>{320,62}</string>
+            </dict>
+            <key>ui_red light.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,63},{78,55}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,55}}</string>
+                <key>sourceSize</key>
+                <string>{78,55}</string>
+            </dict>
+            <key>ui_warning.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{79,63},{240,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{240,40}}</string>
+                <key>sourceSize</key>
+                <string>{240,40}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>wsparticle_warning1.png</string>
+            <key>size</key>
+            <string>{512,128}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:436b9391c8b6acb30acc209284c7e096$</string>
+            <key>textureFileName</key>
+            <string>wsparticle_warning1.png</string>
+        </dict>
+    </dict>
+</plist>
