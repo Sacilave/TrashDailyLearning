@@ -1,0 +1,26 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var xmlhttp;
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        var strdsn = "Driver={SQL Server};SERVER=162.253.155.227;UID=247744;PWD=ZzGgXx20050328;DATABASE=247744";
+        xmlhttp.open("GET",strdsn,true);
+        console.log(xmlhttp.open("GET",strdsn,true))
+    </script>
+
+</body>
+</html>

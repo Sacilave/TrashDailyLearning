@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="由Sacilave独自制作，转载与使用等请标注出处">
+    <title>沙雕留言板</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    
+</head>
+<body style="background-image: url(resource/image/bg01-atri.gif);">
+    <div>
+        <h1 class=title>Sacilave的沙雕留言板</h1>
+        <div style="text-align: center;color:pink;">游戏打吐了。于是就建了个留言板一样的东西。。吧</div>
+    </div><br><br>
+        
+    <div>
+        <div class="content" id="leftPart">
+            
+        </div>
+        
+        <div class="content" id="rightPart">
+            <button id="sentBtn">ok,发送</button>
+            <textarea name="textEdit" id="editor" cols="30" rows="10" placeholder=" 留下你的足迹。。。" maxlength="500"></textarea>
+        </div>
+    </div>
+
+    <div style="position:absolute;left: 10px;bottom: 0px;">
+        <p id="hitokoto"><a href="#" id="hitokoto_text"  style="text-decoration: none;color: rgb(200, 200, 200);">:D 获取中...</a></p>
+        <script>
+            fetch('https://v1.hitokoto.cn')
+              .then(response => response.json())
+              .then(data => {
+                const hitokoto = document.getElementById('hitokoto_text')
+                hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                hitokoto.innerText = data.hitokoto
+              })
+              .catch(console.error)
+          </script>
+    </div>
+    
+
+    
+    
+    <div id="playerDiv">
+        <div id="playerText">Dan Salvato,Jillian Ashcraft<br>Your Reality</div>
+        
+        <audio controls id="player">
+            <source src="/resource/audio/Dan Salvato,Jillian Ashcraft - Your Reality.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    
+    
+</body>
+</html>
