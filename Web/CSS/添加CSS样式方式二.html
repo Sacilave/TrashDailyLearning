@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加CSS样式方式二</title>
+    <style>  /*可以使用 style标签 来添加样式，但是用 style标签 就必须要用 选择器 */
+        p {  /*这是标签选择器(当前标签为 p标签)，所有的 p标签 都会按照这个样式*/
+            background-color: skyblue
+        }
+        #title {  /*这是 id选择器 ，所有包含 id 为title的标签都会按照这个格式*/
+            background-color:tomato
+        }
+        .cls {  /*这是 class选择器 ，所有包含 class 为cls的标签都会按照这个格式*/
+            height:100px
+        }
+
+    </style>
+</head>
+<body>
+    <p>使用 标签选择器 的一个 p标签 在这里</p>
+    <p id="title">使用 id选择器 的一个 p标签 在这里</p>
+    <p id="title"; class="cls cls2 cls3">使用 class 选择器的一个 p标签 在这里</p>  <!--这里的class可以设置多个类名(比如这里有 cls cls2 cls3 这三个类，每个类名间用 空格 隔开)-->
+</body>
+</html>
