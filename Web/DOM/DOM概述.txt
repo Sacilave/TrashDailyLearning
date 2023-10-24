@@ -1,0 +1,6 @@
+DOM (Document Object Modal): 文档对象模型
+DOM是浏览器提供的(浏览器特有)专门用来操作网页内容的一些 JS对象
+目的：可以使用 TS 或 JS 代码来操作页面（HTML）内容，让网页动起来，从而实现网页开发
+浏览器会根据HTML内容创建相对应的DOM对象，也就是说每个HTML标签都有相对应的DOM对象
+例如：
+HTML的一个标签 <img scr="" /> 相对应的 DOM 就是 img 对象下面有一个 scr 属性
