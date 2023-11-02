@@ -48,7 +48,7 @@ void hourMin() {
 	int hour, min = 0;
 	printf("输入小时和分钟用,分隔\n");
 	scanf("%d,%d", &hour, &min);
-	printf("%02d:%02d", hour, min);
+	printf("%02d:%02d\n", hour, min);
 }
 
 // 四则运算器
@@ -57,11 +57,11 @@ void calculator() {
 	printf("输入算式\n");
 	scanf("%d%c%d", &a, &calcu, &b);
 	switch (calcu) {
-		default: printf("非四则运算符"); break;
-		case '+': printf("%d%c%d=%d", a, calcu, b, a + b); break;
-		case '-': printf("%d%c%d=%d", a, calcu, b, a - b); break;
-		case '*': printf("%d%c%d=%d", a, calcu, b, a * b); break;
-		case '/': printf("%d%c%d=%d", a, calcu, b, a / b); break;
+		default: printf("非四则运算符\n"); break;
+		case '+': printf("%d%c%d=%d\n", a, calcu, b, a + b); break;
+		case '-': printf("%d%c%d=%d\n", a, calcu, b, a - b); break;
+		case '*': printf("%d%c%d=%d\n", a, calcu, b, a * b); break;
+		case '/': printf("%d%c%d=%d\n", a, calcu, b, a / b); break;
 	}
 }
 
@@ -88,6 +88,6 @@ void monthOutput() {
 	switch (month) { 
 		default: printf("本月30天"); break;
 		case 1: case 3: case 5: case 7: case 8: case 10: case 12: printf("本月31天"); break;
-		case 2:printf("本月%d天", runMonth); break;
+		case 2: printf("本月%d天", runMonth); break;
 	}
 }
