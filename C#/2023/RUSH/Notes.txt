@@ -1,0 +1,276 @@
+﻿VisualStudio 快捷键：
+	Ctrl + H  替换
+	Ctrl + F  查找
+	Shift + Ctrl + A  新建项
+
+
+程序结构：
+	namespace (命名空间)  用于区分各个类
+	class (类)  为引用类型
+		class 中所有东西都称为成员
+		成员分为：
+			属性：一个字段
+				如 public string name; 中的 name 就是一个 属性成员
+			函数(方法)：
+				如 public void outputName() {} 中的 outputName() 就是一个 方法成员
+	Main()  入口
+		必须设定为 static 类型
+		
+		
+
+数据类型：
+	值类型 (ValueTypes)：不能被继承
+		bool  默认False
+		char  16位 Unicode字符  默认''
+		decimal  128 位精确的十进制值，28-29 有效位数  默认0.0M
+		浮点型：
+			float  32位  默认 0.0F
+			double  64位  默认 0.0D
+		整型： 默认 0
+			有符号整型：
+				sbyte  8位  0~255
+				short  16位  -32768~32767 
+				int  32位  -2,147,483,648~2,147,483,647	 
+				long  64位  -9,223,372,036,854,775,808~9,223,372,036,854,775,807	
+			无符号整型：
+				byte
+				ushort
+				uint
+				ulong
+
+	引用类型(Reference Types): 可被继承，引用类型 需要用 new关键字 创建
+		Object(对象类型):
+			object 变量名;
+			Object类是所有类型的基类，因此可被被分配为任何类型(值类型，引用类型，预定义类型，用户自定义类型)
+			拆装箱：
+				
+		Dynamic(动态类型)：
+			dynamic<变量名> = value
+			可以存储任意类型在 dynamic类型中，这些变量的类型检查在运行时发生
+			
+		String(字符串类型)：
+			string 变量名 = ""
+			逐字字符串：@""
+				将转移符 \ 当做正常字符，可以随意在字符串内随意换行，同时换行符和缩进空格都算在字符串长度内
+
+	指针类型(Pointer Types)：
+		类型名* 变量名  （如 int* inPointer01;）
+
+
+类型转换：
+	隐式转换：自动完成
+		小范围数据 转换为 大范围数据，派生类型 转换为 基类
+		如 将 byte 类型 赋值给 int 类型，int 赋值给 long 等
+	显式转换：(转换的数据类型)被转换的变量名	
+		大范围数据 转换为 小范围数据，一个对象类型 转换为 另一个对象类型
+		如 int a = (int)aLoneNum;
+
+		更多显式转换函数：
+			以下函数均属于 System namespace 中的 Convert 类，使用时： int a = Convert.ToInt32("123");
+			ToBoolean
+				如果可能的话，把类型转换为布尔型。
+			ToByte
+				把类型转换为字节类型。
+			ToChar
+				如果可能的话，把类型转换为单个 Unicode 字符类型。
+			ToDateTime
+				把类型（整数或字符串类型）转换为 日期-时间 结构。
+			ToDecimal
+				把浮点型或整数类型转换为十进制类型。
+			ToDouble
+				把类型转换为双精度浮点型。
+			ToInt16
+				把类型转换为 16 位整数类型。
+			ToInt32
+				把类型转换为 32 位整数类型。
+			ToInt64
+				把类型转换为 64 位整数类型。
+			ToSbyte
+				把类型转换为有符号字节类型。
+			ToSingle
+				把类型转换为小浮点数类型。
+			ToString
+				把类型转换为字符串类型。
+			ToType
+				把类型转换为指定类型。
+			ToUInt16
+				把类型转换为 16 位无符号整数类型。
+			ToUInt32
+				把类型转换为 32 位无符号整数类型。
+			ToUInt64
+				把类型转换为 64 位无符号整数类型。
+
+转义符：
+	\a  Alert 输出警告声
+	\b  Backspace
+	\f  换页符
+	\v  垂直 Tab
+
+常量：
+	整型常量：
+		十进制 无前缀
+		八进制 前缀 0 
+		十六进制 前缀 0x
+		unsigned 后缀 U 或 u
+		long 后缀 L 或 l
+	浮点常量
+	字符常量：使用 '' 存储
+		可存储转义符
+	字符串常量： "" 或 @""
+
+	定义常量：
+		const <data_type> <constant_name> = value;
+
+封装（访问修饰符）：
+	封装是为了防止对实现细节的访问。 抽象和封装是面向对象程序设计的相关特性。抽象允许相关信息可视化，封装则使开发者实现所需级别的抽象。
+	封装根据需要 设置使用者访问权限，通过访问修饰符实现
+	各类访问修饰符：
+		public：所有对象都可以访问；
+		private：对象本身在对象内部可以访问；
+		protected：只有该类对象及其子类对象可以访问
+		internal：同一个程序集的对象可以访问；
+		protected internal：访问限于当前程序集或派生自包含类的类型。
+
+方法：
+	参数传递：
+		值参数：
+			将 实参 复制给 形参，两者是不同的内存中的值。所以 形参 不会改变 实参。
+			public void fun(int a, int b) {}
+		引用参数：(可用于变量交换)
+			将 实参的内存地址 复制给 形参，所以 形参 改变时，实参也会被改变
+			public void fun(ref int a, ref int b) {}
+		输出参数：
+			return只能有一个输出，使用输出参数可以返回多个值
+			public void fun(out int a, out int b) {}  // 调用时 传递 a，调用结束后，a 的值便为 函数内运算完后输出 a 的值
+
+可空类型：
+	int? i;  // 默认为 null
+	等同于 Nullable<int> i = new Nullable<int>()
+
+	null 运算符：
+		num3 = num1 ?? 5;  // 如果 num1 为空 则 返回 5，则 num3 被赋值为 5。如果不为空就不会执行
+
+
+
+数组：
+	int[] arr;  // 声明
+	int[] arr = new int[10];  // 赋值给数组
+	int[] arr = { 1, 2, 3 };
+	int[] arr = new int[] { 0, 1, 2 };
+
+
+字符串：
+	string str01 = new string(charArr)  // charArr 为一个 字符数组，将会被拼接为一个字符串
+	String.Join(" ", arr);  // arr 是一个 字符串数组，输出为将其拼接的结果，各元素间用调用传递的第一个参数也就是空格分隔
+	String.Format("{0:t} {0:D}", timeValue);  // timeValue 为一个 DateTime类型 变量
+
+
+结构体(struct): 值类型
+	struct 结构名 { }
+	C# 中 struct 的特点：
+		结构不能设初始值，类可以
+		结构可带有方法、字段、索引、属性、运算符方法和事件
+		结构可定义构造函数，但不能定义析构函数。但是，您不能为结构定义无参构造函数。无参构造函数(默认)是自动定义的，且不能被改变。
+		与类不同，结构不能继承其他的结构或类。
+		结构不能作为其他结构或类的基础结构。
+		结构可实现一个或多个接口。
+		结构成员不能指定为 abstract、virtual 或 protected。
+		当您使用 New 操作符创建一个结构对象时，会调用适当的构造函数来创建结构。与类不同，结构可以不使用 New 操作符即可被实例化。
+		如果不使用 New 操作符，只有在所有的字段都被初始化之后，字段才被赋值，对象才被使用
+	struct 内方法赋值内字段
+		struct Books
+		{
+		   private string title;
+		   private string author;
+		   private string subject;
+		   private int book_id;
+		   public void setValues(string t, string a, string s, int id)
+		   {
+			  title = t;
+			  author = a;
+			  subject = s;
+			  book_id =id;
+		   }
+		}
+
+
+类(class)：
+	类是引用类型的。对象是类的实例。构成类的方法和变量称为类的成员。
+	访问修饰符 class 类名称
+	{
+		字段;
+		方法;
+	}
+	比如：
+		internal class testClass
+		{
+			public int a;
+		}
+
+	类的实例化：因为是引用类型，肯定要用 new 关键字
+		类名 对象名 = new 类名();  // 该语句 将一个 类 实例化为一个 对象
+		也可简化为：类名 对象名 = new(); 
+		例如：testClass theTestOne = new testClass();
+
+	构造函数：
+		特殊的成员函数，当创建类的新对象时执行
+		构造函数的名称与类的名称完全相同，它没有任何返回类型!!! 
+		建议设置为 public 不然在其他类中会被限制访问，也导致甚至不能在其他的 class 中被实例化
+		放在类中的成员函数例如 public Asshole(){ }  // 其中的函数名 Asshole 其实也就是 类 的名称
+		在类被实例化为对象时被自动调用
+		可以设定参数，称为 参数化构造函数。在实例化时需要传递指定参数
+
+	析构函数：
+		在类的名称前加上 ~ 不返回值也不带参数
+		析构函数用于在结束程序（比如关闭文件、释放内存等）之前释放资源。析构函数不能继承或重载
+		
+	静态成员：
+		不随方法和类的生命周期结束而结束，意味着无论有多少个类的对象被创建，只会有一个该静态成员的副本
+		比如可以通过多次调用一个(将一个静态属性++)的方法达成累加效果
+		静态属性：
+			可通过 类名.属性名 直接进行访问，所以可直接在类外初始化，不需要实例化为一个对象
+		静态方法：
+			方法只能访问静态变量。静态方法在对象被创建之前就已经存在
+
+继承：
+	基类：
+		一个正常命名的类
+	派生类：
+		class 派生类类名 : 基类名 {}
+		派生类中常设置 属性成员 的访问类型为 protected (可被该类和其子类的对象访问)
+
+
+
+枚举类型(enum): 值类型
+	enum <enum_name>
+	{ 
+		enumeration list 
+	};
+	例如 enum Days { Sun, Mon, tue, Wed, thu, Fri, Sat };
+	可以转换为int，(int)Days.Sun
+
+
+小知识点：
+	关于时间格式化：
+		DateTime 变量名 = new DateTime(年份, 月份, 日期, 小时, 分钟, 秒钟)  // 可以直接 Console.WriteLine(变量名.ToString()) 输出结果为如 2023/10/10 17:18:22 的格式
+		DateTime dt = new DateTime(2017,4,1,13,16,32,108);
+		string.Format("{0:y yy yyy yyyy}",dt); //17 17 2017 2017
+		string.Format("{0:M MM MMM MMMM}", dt);//4  04 四月 四月
+		string.Format("{0:d dd ddd dddd}", dt);//1  01 周六 星期六
+		string.Format("{0:t tt}", dt);//下 下午
+		string.Format("{0:H HH}", dt);//13 13
+		string.Format("{0:h hh}", dt);//1  01
+		string.Format("{0:m mm}", dt);//16 16
+		string.Format("{0:s ss}", dt);//32 32
+		string.Format("{0:F FF FFF FFFF FFFFF FFFFFF FFFFFFF}", dt);//1 1  108 108  108   108    108
+		string.Format("{0:f ff fff ffff fffff ffffff fffffff}", dt);//1 10 108 1080 10800 108000 1080000
+		string.Format("{0:z zz zzz}", dt);//+8 +08 +08:00
+
+		string.Format("{0:yyyy/MM/dd HH:mm:ss.fff}",dt);　　//2017/04/01 13:16:32.108
+		string.Format("{0:yyyy/MM/dd dddd}", dt);　　　　　　//2017/04/01 星期六
+		string.Format("{0:yyyy/MM/dd dddd tt hh:mm}", dt); //2017/04/01 星期六 下午 01:16
+		string.Format("{0:yyyyMMdd}", dt);　　　　　　　　　//20170401
+		string.Format("{0:yyyy-MM-dd HH:mm:ss.fff}", dt);　//2017-04-01 13:16:32.108
+
+
+	
