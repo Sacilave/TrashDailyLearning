@@ -4,8 +4,12 @@
 	Shift + Ctrl + A  新建项
 
 
-程序结构：
+基础：
 	namespace (命名空间)  用于区分各个类
+		注意 using 的各个命名空间中是否有重名的 class，否则下方调用 class 时会没有唯一的指向
+	字段是在类或结构中直接声明的任意类型的变量
+	方法 = 函数
+	方法的实现 指 的就是 方法花括号内的执行命令
 	class (类)  为引用类型
 		class 中所有东西都称为成员
 		成员分为：
@@ -55,6 +59,23 @@
 
 	指针类型(Pointer Types)：
 		类型名* 变量名  （如 int* inPointer01;）
+
+变量，常量的 声明：
+	变量：类型 名称 = 值;
+		string greeting = "Hello";
+		int a = 3, b = 2, c = a + b;
+		List<double> xs = new();
+	常量：const 类型 名称 = 值;
+		const string Greeting = "Hello";
+	隐式类型变量：var 名称 = 值;
+		var 在编译中根据值自动推断变量类型
+		var greeting = "Hello";
+		Console.WriteLine(greeting.GetType());  // output: System.String
+		var a = 32;
+		Console.WriteLine(a.GetType());  // output: System.Int32
+		var xs = new List<double>();
+		
+
 
 
 类型转换：
@@ -118,8 +139,6 @@
 		可存储转义符
 	字符串常量： "" 或 @""
 
-	定义常量：
-		const <data_type> <constant_name> = value;
 
 封装（访问修饰符）：
 	封装是为了防止对实现细节的访问。 抽象和封装是面向对象程序设计的相关特性。抽象允许相关信息可视化，封装则使开发者实现所需级别的抽象。
@@ -152,11 +171,35 @@
 
 
 
-数组：
-	int[] arr;  // 声明
-	int[] arr = new int[10];  // 赋值给数组
-	int[] arr = { 1, 2, 3 };
-	int[] arr = new int[] { 0, 1, 2 };
+存储一组对象：
+	Array：from namespace(System.Array)
+		索引速度快，赋值与修改元素方便；插入复杂，必须指定长度
+		int[] arr;  // 声明
+		int[] arr = new int[10];  // 赋值给数组
+		int[] arr = { 1, 2, 3 };
+		int[] arr = new int[] { 0, 1, 2 };
+	ArrayList: from namespace(System.Collections)
+		使用该类必须进行引用，ArrayList 对象的大小按照存储的数据动态扩充和收缩，所以无需指定长度
+		ArrayList 把所有元素作为 object 类型，所以可方便的插入任意类型，也因此可能会报错类型错误
+		所以该类型不是类型安全的。在存储和检索均要进行拆装箱操作，性能损耗严重。
+		// 声明
+		ArrList list01 = new ArrList();  也可简化  ArrList list01 = new();
+		// 新增数据  
+		list1.Add("cde");  
+		list1.Add(5678);  
+		// 修改数据  
+		list[2] = 34;  
+		// 移除数据  
+		list.RemoveAt(0);  
+		// 插入数据  
+		list.Insert(0, "qwe");
+	List：from namespace(System.Collections.Generic)
+		List类是ArrayList类的泛型等效类
+		与 ArrayList 基本相同，但是需要指定 对象内元素类型
+		List<string> str01 = new List<string>();
+		插入修改移除语句与 ArrayList类型 相同
+
+	三者间，List 最常用，但是只有 Array 能定义多维
 
 
 字符串：
@@ -213,9 +256,15 @@
 		例如：testClass theTestOne = new testClass();
 
 	抽象类：
-		用于提供接口的部分类的实现
-		抽象类不能被实例化
-		抽象方法必须声明在抽象类中
+		抽象类不能被实例化，用于提供一个可供多个派生类共享的通用基类定义。
+		例如，类库可以定义一个抽象类，将其用作多个类库函数的参数，并要求使用该库的程序员通过创建派生类来提供自己的类实现
+		抽象方法：
+			如 public abstract void test(int i);
+			抽象方法没有实现所以以分号结尾而不是用 方法块(花括号包括内容)
+			抽象类的派生类必须实现所有抽象方法
+
+	密封类：
+		使用 seal 关键字 声明密封类，将不能作为基类(不能被继承)
 		
 	类的成员：
 		构造函数：
@@ -275,8 +324,38 @@
 		class class02 : classBasic, classBasic02 {}
 			其中 class02 为派生类，classBasic 为 基类，classBasic02 可以用 interface 作为基类
 
-	限制继承：
-		class 前加上 sealed 关键字，可以将该 class 声明为 密封类，即不能被继承
+
+	abstract, virtual, override 继承虚方法 案例：
+		public class D  // 基类 D
+		{
+			public virtual void DoWork(int i)
+			{
+				// Original implementation.
+			}
+		}
+
+		public abstract class E : D  // 抽象派生类 E 派生自 D
+		{
+			public abstract override void DoWork(int i);
+		}
+
+		public class F : E  // 派生类 F 派生自 E
+		{
+			public override void DoWork(int i)
+			{
+				// New implementation.
+			}
+		}
+
+		class D 中可能有多个属性和方法，需要对这些成员进行派生并派生出新的一个方法实现
+		为保证 D 中的方法可以被 override 为 抽象方法，需要使用 virtual关键字 将其声明为 虚方法 
+		虚方法 可以在对象中被调用
+		而又要求派生出的新方法必须包含特定的抽象方法，于是先将 D 派生 到 E (抽象类中的抽象方法可以强制要求派生自该抽象类的其他类必须包含此抽象方法)
+		为了实现 基类 中的方法新的实现，需要使用 override 关键字重新声明为 抽象方法
+		再将抽象方法派生给了 F，所以 F 中必须要声明 E 中的 抽象方法，再使用 override 重新声明方法的实现
+		注意哦，重新声明方法实现时，必须要用 override 关键字
+
+
 
 多态性：
 	与继承相关，多态性意味着有多重形式
