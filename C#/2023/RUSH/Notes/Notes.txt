@@ -23,7 +23,14 @@
 	Main()  入口
 		必须设定为 static 类型
 		
-		
+预处理器：
+	#define definedName  // 用于定义一个名为 definedName 的常量
+	条件常量：
+		#if (definedName)  // 用于判断是否定义了名为 definedName 的常量，括号内可填更多其他常量名 可使用运算符 == != && ||
+		#elif ()  与  #else 与 #if 同为预定义判断条件, 必须 #endif 作为语句的结束
+	#error  允许指定位置生成一个错误
+	#warning  允许指定位置生成一个警告
+
 
 数据类型：
 	值类型 (ValueTypes)：不能被继承
@@ -327,37 +334,9 @@
 		class class02 : classBasic, classBasic02 {}
 			其中 class02 为派生类，classBasic 为 基类，classBasic02 可以用 interface 作为基类
 
-
-	abstract, virtual, override 继承虚方法 案例：
-		public class D  // 基类 D
-		{
-			public virtual void DoWork(int i)
-			{
-				// Original implementation.
-			}
-		}
-
-		public abstract class E : D  // 抽象派生类 E 派生自 D
-		{
-			public abstract override void DoWork(int i);
-		}
-
-		public class F : E  // 派生类 F 派生自 E
-		{
-			public override void DoWork(int i)
-			{
-				// New implementation.
-			}
-		}
-
-		class D 中可能有多个属性和方法，需要对这些成员进行派生并派生出新的一个方法实现
-		为保证 D 中的方法可以被 override 为 抽象方法，需要使用 virtual关键字 将其声明为 虚方法 
-		虚方法 可以在对象中被调用
-		而又要求派生出的新方法必须包含特定的抽象方法，于是先将 D 派生 到 E (抽象类中的抽象方法可以强制要求派生自该抽象类的其他类必须包含此抽象方法)
-		为了实现 基类 中的方法新的实现，需要使用 override 关键字重新声明为 抽象方法
-		再将抽象方法派生给了 F，所以 F 中必须要声明 E 中的 抽象方法，再使用 override 重新声明方法的实现
-		注意哦，重新声明方法实现时，必须要用 override 关键字
-		使用 override 重声明实现后，如果想要在 派生类 中调用 基类 原来的 虚方法，使用 base.原方法名();
+	抽象函数 (abustract), 虚方法(vurtual function), 方法实现复写(override):
+		内容在下方 多态性 的 动态多态性 中
+	
 		
 
 多态性：
@@ -411,6 +390,36 @@
 			=, ., ?:, ->, new, is, sizeof, typeof	这些运算符不能被重载。
 
 	动态多态性：
+		abstract, virtual, override 继承虚方法 案例：
+		public class D  // 基类 D
+		{
+			public virtual void DoWork(int i)
+			{
+				// Original implementation.
+			}
+		}
+
+		public abstract class E : D  // 抽象派生类 E 派生自 D
+		{
+			public abstract override void DoWork(int i);
+		}
+
+		public class F : E  // 派生类 F 派生自 E
+		{
+			public override void DoWork(int i)
+			{
+				// New implementation.
+			}
+		}
+
+		class D 中可能有多个属性和方法，需要对这些成员进行派生并派生出新的一个方法实现
+		为保证 D 中的方法可以被 override 为 抽象方法，需要使用 virtual关键字 将其声明为 虚方法 
+		虚方法 可以在对象中被调用
+		而又要求派生出的新方法必须包含特定的抽象方法，于是先将 D 派生 到 E (抽象类中的抽象方法可以强制要求派生自该抽象类的其他类必须包含此抽象方法)
+		为了实现 基类 中的方法新的实现，需要使用 override 关键字重新声明为 抽象方法
+		再将抽象方法派生给了 F，所以 F 中必须要声明 E 中的 抽象方法，再使用 override 重新声明方法的实现
+		注意哦，重新声明方法实现时，必须要用 override 关键字
+		使用 override 重声明实现后，如果想要在 派生类 中调用 基类 原来的 虚方法，使用 base.原方法名();
 		
 接口(interface):
 	interface 与 抽象类 很像，但相对抽象类更常用，默认声明是 public
@@ -460,5 +469,61 @@
 		常用于不会经常改变但经常使用的数据比如配置信息
 		无论类创建了多少个实例，一个静态字段只标识一个存储位置
 
-		
+
+异常处理：
+	对程序运行出现特殊情况的相应，比如尝试除以0
+	try
+	{
+		// 引起异常的语句
+	}
+	catch( ExceptionName e1 )
+	{
+		// 错误处理代码
+	}
+	catch( ExceptionName e2 )
+	{
+		// 错误处理代码
+	}
+	catch( ExceptionName eN )
+	{
+		// 错误处理代码
+	}
+	finally
+	{
+		// 要执行的语句
+	}
+
+C# 文件的输入与输出
+	概念：文件是在磁盘中带有指定名称和指定路径的数据集合，当打开文件进行读写操作时，其变成一个流
+	流 是 通过通信路径传递的字节序列。主要分为 输入流(I)用于读 和 输出流(O)用于写
+	FileStream 类 进行文件操作：
+		属于 namespace: System.IO ，派生自抽象类 Stream
+		// 首先新建一个 FileStream 对象
+		FileStream <object_name> = new FileStream( <file_name>, <FileMode Enumerator>, <FileAccess Enumerator>, <FileShare Enumerator>);
+		// 例如，创建一个 FileStream 对象 F 来读取名为 sample.txt 的文件：
+		FileStream F = new FileStream("sample.txt", FileMode.Open, FileAccess.Read, FileShare.Read);
+		具体参数：
+			FileMode	
+				FileMode 枚举定义了各种打开文件的方法。FileMode 枚举的成员有：
+					Append：打开一个已有的文件，并将光标放置在文件的末尾。如果文件不存在，则创建文件。
+					Create：创建一个新的文件。如果文件已存在，则删除旧文件，然后创建新文件。
+					CreateNew：指定操作系统应创建一个新的文件。如果文件已存在，则抛出异常。
+					Open：打开一个已有的文件。如果文件不存在，则抛出异常。
+					OpenOrCreate：指定操作系统应打开一个已有的文件。如果文件不存在，则用指定的名称创建一个新的文件打开。
+					Truncate：打开一个已有的文件，文件一旦打开，就将被截断为零字节大小。然后我们可以向文件写入全新的数据，但是保留文件的初始创建日期。如果文件不存在，则抛出异常。
+			
+			FileAccess	
+				FileAccess 枚举的成员有：
+					Read、ReadWrite 和 Write。
+
+			FileShare	
+				FileShare 枚举的成员有：
+					Inheritable：允许文件句柄可由子进程继承。Win32 不直接支持此功能。
+					None：谢绝共享当前文件。文件关闭前，打开该文件的任何请求（由此进程或另一进程发出的请求）都将失败。
+					Read：允许随后打开文件读取。如果未指定此标志，则文件关闭前，任何打开该文件以进行读取的请求（由此进程或另一进程发出的请求）都将失败。但是，即使指定了此标志，仍可能需要附加权限才能够访问该文件。
+					ReadWrite：允许随后打开文件读取或写入。如果未指定此标志，则文件关闭前，任何打开该文件以进行读取或写入的请求（由此进程或另一进程发出）都将失败。但是，即使指定了此标志，仍可能需要附加权限才能够访问该文件。
+					Write：允许随后打开文件写入。如果未指定此标志，则文件关闭前，任何打开该文件以进行写入的请求（由此进程或另一进过程发出的请求）都将失败。但是，即使指定了此标志，仍可能需要附加权限才能够访问该文件。
+					Delete：允许随后删除文件。
+
+
 	
