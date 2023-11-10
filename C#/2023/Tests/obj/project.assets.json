@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TECH\\C#\\rushrush\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\TECH\\C#\\Learn2023\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "D:\\TECH\\C#\\rushrush\\Tests\\Tests.csproj",
+      "projectPath": "D:\\TECH\\C#\\Learn2023\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\22768\\.nuget\\packages\\",
-      "outputPath": "D:\\TECH\\C#\\rushrush\\Tests\\obj\\",
+      "outputPath": "D:\\TECH\\C#\\Learn2023\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

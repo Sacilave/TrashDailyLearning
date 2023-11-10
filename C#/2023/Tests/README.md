@@ -1,8 +1,4 @@
-# 关于 day01
-时隔数年后重新学习C# XD <br />
-## RUSH 为 C# 笔记
-基于了 [官方教程](https://learn.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp/tutorials/) 写的笔记<br />
-## Test 中的题目如下
+## test01.cs 中的题目如下
 1\. 本题要求编写程序，输出指定的带框文字。按照下列格式输出
 
         ************

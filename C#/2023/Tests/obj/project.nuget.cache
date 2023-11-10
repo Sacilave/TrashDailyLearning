@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3M18t14yp/4Mi7RDsJCmXULosGT+SyBm+6nxpzKeS3tSd4JDC1ozlH8vXCvxiFbW1D5In0XPv0xXrlLKzF+Hw==",
+  "dgSpecHash": "ykr7CO45UfMAWAMSZUmB9pyCnoPH0mdeJKkFc2coOQAC4UD/dnSE8eZLL4csPgq5TwKHixHWtm/PQfjOdhMWfg==",
   "success": true,
-  "projectFilePath": "D:\\TECH\\C#\\rushrush\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\TECH\\C#\\Learn2023\\Tests\\Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

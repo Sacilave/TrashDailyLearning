@@ -2,7 +2,7 @@
 
 namespace test01
 {
-    class tests
+    class test01
     {
         static void output()
         {
@@ -130,10 +130,6 @@ namespace test01
             {
                 Console.WriteLine(arr.Length);
             }
-        }
-        static void Main()
-        {
-            
         }
     }
 }

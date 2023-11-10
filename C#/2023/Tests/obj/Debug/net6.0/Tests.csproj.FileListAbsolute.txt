@@ -12,3 +12,17 @@ D:\TECH\C#\rushrush\Tests\obj\Debug\net6.0\refint\Tests.dll
 D:\TECH\C#\rushrush\Tests\obj\Debug\net6.0\Tests.pdb
 D:\TECH\C#\rushrush\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
 D:\TECH\C#\rushrush\Tests\obj\Debug\net6.0\ref\Tests.dll
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.AssemblyInfoInputs.cache
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.AssemblyInfo.cs
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.csproj.CoreCompileInputs.cache
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.dll
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\refint\Tests.dll
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.pdb
+D:\TECH\C#\Learn2023\Tests\bin\Debug\net6.0\Tests.exe
+D:\TECH\C#\Learn2023\Tests\bin\Debug\net6.0\Tests.deps.json
+D:\TECH\C#\Learn2023\Tests\bin\Debug\net6.0\Tests.runtimeconfig.json
+D:\TECH\C#\Learn2023\Tests\bin\Debug\net6.0\Tests.dll
+D:\TECH\C#\Learn2023\Tests\bin\Debug\net6.0\Tests.pdb
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
+D:\TECH\C#\Learn2023\Tests\obj\Debug\net6.0\ref\Tests.dll
