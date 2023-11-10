@@ -2,20 +2,31 @@ VS 设置：
 	项目文件右键，属性窗口中，常规，配置类型中可以选择编译出的二进制文件类型，默认为 exe，可设置 dll 和 lib 类型
 
 
-C++ 工作逻辑：
-	0. 编译前编译器会先处理所有预处理，预处理就等于将 .h 文件内所有文本复制粘贴到 使用了 include 的 .cpp文件 中
+C++ 编译原理：
+	1. 编译(Compiling)：Ctrl + F7 
+		当项目设置为 exe 时，文件必须有入口点 ( main() )
+		编译前编译器会先处理所有预处理，预处理就等于将 .h 文件内所有文本复制粘贴到 使用了 include 的 .cpp文件 中	
+		每个 cpp文件(translation unit) 都被单独编译生成了一个 object file (目标文件)，后缀为 .obj 
+			这些 cpp文件 被称为 translation unit, 但对C++来说并没有实际意义
+			仅告诉了编译器这是什么类型文件，应该如何处理，比如 .h 应当成 head file 处理
+			但如果一个 cpp文件 include 了另一个 cpp文件，依旧为一个 translation unit
+				所以一个cpp中想调用另一个cpp中的函数会报错，编译是一个一个cpp文件进行的
+				解决办法：假设在 B.cpp 的 main() 中想要调用一个 A.cpp 中的函数 void saysth() {},
+				那么需要在 B.cpp 中对 saysth() 进行声明，但并不需要写出其具体实现
+
+	2. 链接(Linking): Ctrl + F5 (Build)
+		然后这些 obj 文件被 Linker(链接器) 合并成一个 exe 或 其他指定类型的二进制文件，编译完成
+				编译完成后运行，main() 中遇到调用 saysth() 时，会通过 Linker 找到 saysth() 的具体实现并成功调用函数
 		
-	1. 每个 cpp文件(translation unit) 都被单独编译生成了一个 object file (目标文件)，后缀为 .obj 
-		这些 cpp文件 被称为 translation unit, 但对C++来说并没有实际意义
-		仅告诉了编译器这是什么类型文件，应该如何处理，比如 .h 应当成 head file 处理
-		但如果一个 cpp文件 include 了另一个 cpp文件，依旧为一个 translation unit
-			所以一个cpp中想调用另一个cpp中的函数会报错，编译是一个一个cpp文件进行的
-			解决办法：假设在 B.cpp 的 main() 中想要调用一个 A.cpp 中的函数 void saysth() {},
-			那么需要在 B.cpp 中对 saysth() 进行声明，但并不需要写出其具体实现
 
-	2. 然后这些 obj 文件被 Linker(链接器) 合并成一个 exe 或 其他指定类型的二进制文件，编译完成
-			编译完成后运行，main() 中遇到调用 saysth() 时，会通过 Linker 找到 saysth() 的具体实现并成功调用函数
+C++ 异常报错：
+	Compiling 异常：比如 error C2143 编译时因语法错误等问题的报错
+	Linking 异常：比如 error LNK1120 中出现 LNK，指的即是 Linker 异常
 
-C++ 编译器工作原理：
-	首先预处理会被处理
+方法：
+	当个方法被调用时，此方法必须进行声明和实现，声明必须在当前文件中出现，实现可在同项目下令一文件中，编译时通过 Linker 连接
+	使用 Linker 实现具体实现时，需要保证方法返回类型，方法名称，方法参数列表均相同，也可通过此方法实现方法的重载
+	如果无法找到方法的实现会返回 LNK error
+	static 方法：
+		一个方法被声明为 static 时，此方法只被声明在当前 cpp文件(translation unit) 中
 	

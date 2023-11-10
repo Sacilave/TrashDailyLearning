@@ -18,6 +18,12 @@
     <ClCompile Include="Notes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="otherTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Notes.txt">
