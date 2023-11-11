@@ -17,7 +17,6 @@ public class ApplicationTest : MonoBehaviour
         // 临时文件夹
         Debug.Log(Application.temporaryCachePath);
 
-
         // 控制程序是否后台运行
         Debug.Log(Application.runInBackground);
         // 打开 URL
@@ -27,7 +26,6 @@ public class ApplicationTest : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         

@@ -18,11 +18,13 @@ public class SceneTest : MonoBehaviour
         */
         GameObject[] gos = scene.GetRootGameObjects();  // 获取场景内所有游戏物体，返回数组
 
-        /*
-        SceneManager.sceneCount  已加载的场景数量 （可以同时存在多个激活的场景）
-         */
-        Scene newScene = SceneManager.CreateScene("newScene");
-        SceneManager.UnloadSceneAsync(newScene);
+
+        Debug.Log(SceneManager.sceneCount);  // 获取已加载的场景数量 
+        Scene newScene = SceneManager.CreateScene("newScene");  // 创建新场景
+        SceneManager.UnloadSceneAsync(newScene);  // 卸载场景
+        // 加载场景  LoadScene(场景名称, 加载方式)
+        SceneManager.LoadScene("MyScene", LoadSceneMode.Single);  // Single 为 替换场景，Additive 为 添加场景 (原场景不会被关闭)
+
     }
 
     // Update is called once per frame
