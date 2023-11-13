@@ -2,10 +2,10 @@
 
 void testOutput();
 void test03(int a);
-void test03(char a);
+void test03(char a) {
+	std::cout << "abab" << std::endl;
+}
 
 int main() {
-	testOutput();
-	test03(3);
 	test03('a');
 }

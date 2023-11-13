@@ -4,7 +4,7 @@ void testOutput() {
 	std::cout << "Abaaba" << std::endl;
 }
 
-void test03(char a) {
+inline void test03(char a) {
 	std::cout << "cccccc" << std::endl;
 }
 

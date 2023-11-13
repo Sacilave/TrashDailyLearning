@@ -23,10 +23,20 @@ C++ 异常报错：
 	Compiling 异常：比如 error C2143 编译时因语法错误等问题的报错
 	Linking 异常：比如 error LNK1120 中出现 LNK，指的即是 Linker 异常
 
+变量(variable):
+	
+
 方法：
 	当个方法被调用时，此方法必须进行声明和实现，声明必须在当前文件中出现，实现可在同项目下令一文件中，编译时通过 Linker 连接
 	使用 Linker 实现具体实现时，需要保证方法返回类型，方法名称，方法参数列表均相同，也可通过此方法实现方法的重载
 	如果无法找到方法的实现会返回 LNK error
 	static 方法：
 		一个方法被声明为 static 时，此方法只被声明在当前 cpp文件(translation unit) 中
-	
+
+	方法实现冲突：
+		当 head file 和 include 了 此 head file 的 cpp文件 中出现了完全相同的方法，编译时会出现冲突
+		解决方案：
+			将 head file 中的 方法设置为 static 类型 (将方法设置为仅方法所在 translation unit 可访问)
+			将 head file 中的 方法设置为 inline 类型 (将方法实际调用替换为实际替换，即为 cpp文件 中的具体实现)
+			将 具体实现 放入第三个 translation unit, 在 head file 中仅声明 方法
+				比如 a.cpp  b.cpp  c.h 中，a.cpp include 了 c.h，在 c.h 中仅声明需要实现的方法，实际实现放入 b.cpp 中
