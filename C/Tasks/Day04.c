@@ -78,7 +78,3 @@ int c() {
     }
     printf("%02d:%02d", hour, minute);
 }
-
-int main() {
-    c();
-}
