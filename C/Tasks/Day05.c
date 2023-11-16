@@ -89,7 +89,6 @@ void d5Task05() {
 
 // ²Ëµ¥
 void d5Task06() {
-	Sleep(5000);
 	int command, n;
 	float num;
 	system("cls");
@@ -126,8 +125,4 @@ void d5Task06() {
 		printf("ÍË³öÖĞ...\n");
 		return;
 	}
-}
-
-int main() {
-	d5Task01(); d5Task02(); d5Task03(); d5Task04(); d5Task05(); d5Task06();
 }
