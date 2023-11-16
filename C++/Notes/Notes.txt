@@ -24,6 +24,8 @@ C++ 异常报错：
 	Linking 异常：比如 error LNK1120 中出现 LNK，指的即是 Linker 异常
 
 变量(variable):
+	变量存储最小单元为 bit，但是寻址时最小为 byte 所以最小类型 bool 大小也为 byte
+	一切变量根本区别为分配的内存大小，包括 char
 	
 
 方法：
