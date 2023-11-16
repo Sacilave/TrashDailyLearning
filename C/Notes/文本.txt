@@ -240,3 +240,18 @@
 		delay(): 属于 dos.h 头文件，单位为ms。为循环等待，进程还在进行，依旧占用处理器
 	强制退出：
 		exit(): 属于 stdlib.h 头文件，需要传递一个 int 类型，传递 0 则程序返回值为 0，-1 则返回 -1
+
+
+小问题：
+	scanf 直接 return：
+		概念：
+			White-Spaces (空白字元): 包括了 Space, Enter, Tab
+			scanf 中 %d格式 默认分隔符为所有的 White-Spaces 也不会读取这些 WhiteSpace ; %s格式 也靠任意 White-Space分隔，但是同时这些也会获取这些 WhiteSpace 的输入并在输入结尾加入结束符 \0, %c 无分隔符
+			scanf 读取原理：
+				scanf 函数以删除的方式从缓冲区读取。若缓冲区为空，则阻塞(等待从键盘输入)，否则直接读取缓冲区，进行下一步
+				scanf 获取数字格式输入时会忽略 WhiteSpaces，字符输入不会
+		案例：
+			第一行 scanf 需要获取 int i 的值，输入 3 并按下回车，此时缓冲区数据就为 3\n。因为数字格式中 WhiteSpace 被忽略，\n 也被忽略了，读取到了 3，缓冲区中删除了 3，还留下了 \n
+			第二行 scanf 需要获取 char c 的值，此时 WhiteSpace 不被忽略，也就是说缓冲区不为空，也就不会进入阻塞，于是直接缓冲区中的 \n 被读取进了 c，此时 c 值为 \n，直接进行下一行代码
+		解决方案：
+			使用 getChar() 或者 scanf() 先读取一次，再进行真正需要的读取
