@@ -141,7 +141,3 @@ void d6ArrTest() {
 	}
 	for (int i = 0; i < count; i++) printf("%d ", arr[i]);  // Êä³öÁÐ±í
 }
-
-int main() {
-	d6ArrTest();
-}
