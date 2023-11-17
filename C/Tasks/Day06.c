@@ -118,29 +118,28 @@ void d6Callatz() {
 	printf("需要 %d 步\n", count);
 }
 
+
+// 去重
 void d6ArrTest() {
-	int count, arrResCount = 0;
-	scanf("%d\n", &count);
+	int count; scanf("%d\n", &count);  // 元素数
 	int* arr = (int*)malloc(count * sizeof(int));
 	int* arrRes = (int*)malloc(count * sizeof(int));
-	for (int i = 0; i < count; i++)  // 获取
-	{
-		scanf("%d", &arr[i]);
-	}
+	for (int i = 0; i < count; i++) scanf("%d", &arr[i]);  // 输入列表
 	for (int i = 0; i < count; i++)
 	{
-		for (int j = i; j < count; j++) 
+		for (int j = i+1; j < count;)
 		{
 			if (arr[i] == arr[j]) {
-				arrRes[arrResCount] = arr[i];
-				arrResCount++;
+				for (int h = j; h < count; h++)
+				{
+					arr[h] = arr[h + 1];
+					count--;
+				}
 			}
+			else j++;
 		}
 	}
-	for (int i = 0; i < arrResCount; i++)
-	{
-		printf("%d\n", arrRes[i]);
-	}
+	for (int i = 0; i < count; i++) printf("%d ", arr[i]);  // 输出列表
 }
 
 int main() {
