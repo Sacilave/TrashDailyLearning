@@ -16,6 +16,7 @@ void d6InputType() {
 	char input; int numInput;
 	printf("请输入字符：\n");
 	scanf("%c", &input);
+	scanf("%c", &input);
 	numInput = (int)input;
 	if (numInput >= 48 && numInput <= 57) printf("输入为数字\n");
 	else if (numInput >= 65 && numInput <= 90) printf("输入为大写字母\n");
@@ -36,7 +37,6 @@ void d6NumTest() {
 	}
 	for (int i = 0; i < 5; i++)
 	{
-		printf("%d, %d\n", num[i], num[5 - i - 1]);
 		if (num[i] != num[5 - i - 1]) flag = false; 
 	}
 	if (flag) printf("是回文数\n");
@@ -59,6 +59,7 @@ void ifRecall() {
 void d6Call() {
 	char input;
 	printf("请输入1-4的数字，选择完成的功能：");
+	scanf("%c", &input);
 	scanf("%c", &input);
 	switch (input)
 	{
@@ -123,7 +124,6 @@ void d6Callatz() {
 void d6ArrTest() {
 	int count; scanf("%d\n", &count);  // 元素数
 	int* arr = (int*)malloc(count * sizeof(int));
-	int* arrRes = (int*)malloc(count * sizeof(int));
 	for (int i = 0; i < count; i++) scanf("%d", &arr[i]);  // 输入列表
 	for (int i = 0; i < count; i++)
 	{
