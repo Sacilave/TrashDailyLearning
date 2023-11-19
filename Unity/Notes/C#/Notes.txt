@@ -1,0 +1,8 @@
+Unity的各类小知识点
+
+获取物体 GameObject 对象的方法：
+	1. 声明一个 GameObject类型 的 public 变量：public GameObject gameobject;
+		添加此 C# 组件时传递一个 GameObj 到 此变量
+	2. 使用 GameObject.Find("");  直接获取物体，变量列表中为一个 string 类型，对应存在于同一 Scene 中的物体名称
+
+实现类似
