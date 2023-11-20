@@ -1,8 +1,20 @@
-Unity的各类小知识点
+获取：
+	获取物体 GameObject 对象的方法：
+		1. 声明一个 GameObject类型 的 public 变量：public GameObject gameobject;
+			添加此 C# 组件时传递一个 GameObj 到 此变量
+		2. 使用 GameObject.Find("");  直接获取物体，变量列表中为一个 string 类型，对应存在于同一 Scene 中的物体名称
 
-获取物体 GameObject 对象的方法：
-	1. 声明一个 GameObject类型 的 public 变量：public GameObject gameobject;
-		添加此 C# 组件时传递一个 GameObj 到 此变量
-	2. 使用 GameObject.Find("");  直接获取物体，变量列表中为一个 string 类型，对应存在于同一 Scene 中的物体名称
+	获取输入水平垂直轴的具体位置：
+		Input.GetAxis("");  参数传递一个 string 类型指定 是水平轴AD (Horizontal)，还是 垂直轴WS (Vertical)
+		返回值为 float 类型
 
-实现类似
+
+
+Unity 的原理和实现方法：
+	
+	实现类似上帝视角的 RPG 的角色移动中的点哪里角色移动到哪里：
+		原理：
+			在画面中在一点点击，相当于是在 Camera 平面上的某一点点击，从此点发射出一条射线(Ray)，创建一个地面物体，并赋予一个C#组件
+			此组件将会实现：通过此 Ray 将摄像机上获取的实际点击点，映射到物体上的某一个点，具体实现在 RayTest.cs 中
+
+
