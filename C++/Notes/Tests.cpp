@@ -1,9 +1,8 @@
 #include <iostream>
 
-void testOutput();
-void test03(int a);
+int a = 0;
 void test03(char a) {
-	std::cout << "abab" << std::endl;
+	std::cout << sizeof(a) << std::endl;
 }
 
 int main() {
