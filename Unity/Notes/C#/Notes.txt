@@ -17,4 +17,11 @@ Unity 的原理和实现方法：
 			在画面中在一点点击，相当于是在 Camera 平面上的某一点点击，从此点发射出一条射线(Ray)，创建一个地面物体，并赋予一个C#组件
 			此组件将会实现：通过此 Ray 将摄像机上获取的实际点击点，映射到物体上的某一个点，具体实现在 RayTest.cs 中
 
+	进行移动时设置的速度：
+		一般在 Update() 中设置移动
+		例如 向前移动：transform.Translate(Vector3.forward * 2 * Time.deltaTime);
+		如果参数传递的只为 Vector3.forward 相当于每一帧都向前方移动 forward 所给的位移量，也就是受帧所控制
+		通过将参数 * Time.deltaTime 将 Translate 变为根据时间而移动
+		再将参数 * 2 意为单位时间内移动两米，方向为 Vector3.forward 也就是向前
+
 
