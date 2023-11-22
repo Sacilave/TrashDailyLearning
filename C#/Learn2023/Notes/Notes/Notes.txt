@@ -10,7 +10,6 @@
 		namespace 可以嵌套，使用 . 访问 namespace 中的 namespace
 
 	字段是在类或结构中直接声明的任意类型的变量
-	方法 = 函数
 	方法的实现 指 的就是 方法花括号内的执行命令
 	C# 中方法分为 实例方法(将 class 实例化成 对象)，静态对象(设置为 static 并可直接使用)
 	class (类)  为引用类型
@@ -20,8 +19,7 @@
 				如 public string name; 中的 name 就是一个 属性成员
 			函数(方法)：
 				如 public void outputName() {} 中的 outputName() 就是一个 方法成员
-	Main()  入口
-		必须设定为 static 类型
+	入口为 Main()
 		
 预处理器：
 	#define definedName  // 用于定义一个名为 definedName 的常量
@@ -395,7 +393,7 @@
 		{
 			public virtual void DoWork(int i)
 			{
-				// Original implementation.
+				// Origin
 			}
 		}
 
@@ -408,7 +406,7 @@
 		{
 			public override void DoWork(int i)
 			{
-				// New implementation.
+				// New 
 			}
 		}
 
