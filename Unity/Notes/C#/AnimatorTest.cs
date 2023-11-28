@@ -6,7 +6,9 @@ using UnityEngine;
 public class AnimatorTest : MonoBehaviour
 {
     private Animator animator;
+    public Transform target;
     public int Speed = 3;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -49,5 +51,17 @@ public class AnimatorTest : MonoBehaviour
     void leftFoot()  // 同上
     {
         Debug.Log("左脚");
+    }
+    private void OnAnimatorIK(int layerIndex)  // 所有IK相关的脚本都写在此方法中
+    {
+        // 设置头部IK
+        animator.SetLookAtWeight(1);  // 设置权重，0~1
+        animator.SetLookAtPosition(target.position);  // 设置看向位置 
+
+        // 设置右手IK
+        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);  // 设置位置受IK影响权重
+        animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1);  // 设置旋转受IK影响权重
+        animator.SetIKPosition(AvatarIKGoal.RightHand, target.position);  // 设置位置
+        animator.SetIKRotation(AvatarIKGoal.RightHand, target.rotation);  // 设置旋转
     }
 }
