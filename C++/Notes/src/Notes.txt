@@ -1,0 +1,126 @@
+VS 设置：
+	项目文件右键，属性窗口中，常规，配置类型中可以选择编译出的二进制文件类型，默认为 exe，可设置 dll 和 lib 类型
+
+预处理器：
+	#pragma once  
+		用于确保不会重复定义 head file 中的方法或属性
+		比如 #include "test.h" 两次会导致 test.h 中的方法被声明多次。
+		也比如可能导致 struct {} 被声明两次，但 struct 在同一 translation unit 中是不能同名的
+		#pragma once 会判断 head file 中的元素是否已被声明过，若已被声明则不会第二次声明
+	#ifndef  _TEST_H
+	#define _TEST_H
+	void testFun();
+	#endif
+		是 #pragma once 的原形式，如果没有被 define 会执行第二行和第三行的 define，如果 define 了，会不执行
+
+C++ 编译原理：
+	1. 编译(Compiling)：Ctrl + F7 
+		当项目设置为 exe 时，文件必须有入口点 ( main() )
+		编译前编译器会先处理所有预处理，预处理就等于将 .h 文件内所有文本复制粘贴到 使用了 include 的 .cpp文件 中	
+		每个 cpp文件(translation unit) 都被单独编译生成了一个 object file (目标文件)，后缀为 .obj 
+			这些 cpp文件 被称为 translation unit, 但对C++来说并没有实际意义
+			仅告诉了编译器这是什么类型文件，应该如何处理，比如 .h 应当成 head file 处理
+			但如果一个 cpp文件 include 了另一个 cpp文件，依旧为一个 translation unit
+				所以一个cpp中想调用另一个cpp中的函数会报错，编译是一个一个cpp文件进行的
+				解决办法：假设在 B.cpp 的 main() 中想要调用一个 A.cpp 中的函数 void saysth() {},
+				那么需要在 B.cpp 中对 saysth() 进行声明，但并不需要写出其具体实现
+
+	2. 链接(Linking): Ctrl + F5 (Build)
+		然后这些 obj 文件被 Linker(链接器) 合并成一个 exe 或 其他指定类型的二进制文件，编译完成
+				编译完成后运行，main() 中遇到调用 saysth() 时，会通过 Linker 找到 saysth() 的具体实现并成功调用函数
+
+C++ 异常报错：
+	Compiling 异常：比如 error C2143 编译时因语法错误等问题的报错
+	Linking 异常：比如 error LNK1120 中出现 LNK，指的即是 Linker 异常
+
+变量(variable):
+	变量存储最小单元为 bit，但是寻址时最小为 byte 所以最小类型 bool 大小也为 byte
+	一切变量根本区别为分配的内存大小，包括 char
+	使用 sizeof() 获取内存占用大小，传递参数为一个数据类型或变量
+
+Cpp 指针(pointer)：
+	指针就是一个用于存储变量的内存地址的整数，本身会占用内存空间
+	&变量名  用于取变量地址
+	*变量名  用于取变量值 (逆向引用)
+	指针的声明：
+		int* pointer = &a;  // 相当于 声明了一个 pointer 变量并将 a 的地址赋值进去
+	例子：
+		使用方法进行累加操作：
+			void increasement(int* value){  // 方法获取一个指针变量 
+				(*value)++;  // (*value) 用于将 *value 运算符先进行运算，即先通过 value地址 取出 value 的值，再进行++的操作；
+			}
+			void main(){
+				int a = 5;
+				increasement(&a);  // 调用传递 a 的指针
+			}
+
+Cpp 引用(reference):
+	引用类似于指针的语法糖，将指针更易于阅读，引用 仅作为变量的另一种获取方式，不占实际内存空间
+	引用的声明赋值：
+		int& ref = a;  // 相当于给 a 附了个别名
+		引用不能只进行声明，必须进行赋值，因为其并不是真正的变量
+
+	例子：
+		使用方法进行累加操作：
+			void increasement(int& value){  // 方法获取了 a 的引用
+				value++;  // 可以直接进行值的累加
+			}
+			void main(){
+				int a = 5;
+				increasement(a)
+			}
+
+Cpp 类(class)：
+	Class 被 Instantiate 为一个 Object
+	在CPP的class的成员命名：
+		对于一个 private 成员：变量名中常以 m_ 开头。比如一个变量 length，命名为：m_length;
+	新建一个 class：
+		class Player
+		{
+		public:
+			int a = 5;
+		private:
+			int b = 4;
+		};
+
+Cpp 结构体(struct):
+	在cpp中，struct 基本与 class 没有任何区别。根本区别为 struct 没设访问修饰权限也默认为 public
+	Cpp 中继续保留 struct 主要为了兼容 C 
+	实际使用上：
+		struct：仅为少量的变量和仅对内部变量进行操作的方法
+		class：大量的方法和属性，或需要用到继承
+
+		
+
+头文件(head file)：
+	一个 head file 中存放对方法的 声明，而方法的实现是放在同项目路径下的 .cpp 文件中的
+	头文件 include 方式：
+		<> 只能用于编译器包含路径
+		"" 可以用于一切，但通常用于 相对路径
+	cpp 中的 head file 不包含文件后缀，不像 c 中会包含文件后缀，也区分了 C 和 CPP 的 标准库
+
+分支：
+	else if 并非为一个 单独的关键字，而是先进行了 else, 再进入 if 分支
+
+方法：
+	方法结构：
+		decoration (声明) void function();
+		defination (定义/实现) void function() {}
+	方法的编译：
+		当个方法被调用时，此方法必须具有声明和实现，声明必须在当前文件中出现，实现可在同项目下令一文件中，编译时通过 Linker 连接
+		使用 Linker 实现具体实现时，需要保证方法返回类型，方法名称，方法参数列表均相同，也可通过此方法实现方法的重载
+		如果无法找到方法的实现会返回 LNK error
+	重点：
+		不能将代码分成大量的方法，会导致运行效率变慢
+		每次调用一个方法时，回生成一个 call instruction，并会生成一个堆栈，最终导致让其在内存中四处跳跃
+		仅 main() 可以不用 return
+	static 方法：
+		一个方法被声明为 static 时，此方法只被声明在当前 cpp文件(translation unit) 中
+
+	方法实现冲突：
+		当 head file 和 include 了 此 head file 的 cpp文件 中出现了完全相同的方法，编译时会出现冲突
+		解决方案：
+			将 head file 中的 方法设置为 static 类型 (将方法设置为仅方法所在 translation unit 可访问)
+			将 head file 中的 方法设置为 inline 类型 (将方法实际调用替换为实际替换，即为 cpp文件 中的具体实现)
+			将 具体实现 放入第三个 translation unit, 在 head file 中仅声明 方法
+				比如 a.cpp  b.cpp  c.h 中，a.cpp include 了 c.h，在 c.h 中仅声明需要实现的方法，实际实现放入 b.cpp 中
