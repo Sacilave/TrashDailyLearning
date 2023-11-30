@@ -86,13 +86,3 @@ void d7MaxMutiNum() {
 	}
 	printf("%d", maxNum);
 }
-
-int main() {
-	d7MaxNum();
-	d7ListSum();
-	d7Watermelon();
-	d7GradeJudge();
-	d7Tax();
-	d7MutiNum();
-	d7MaxMutiNum();
-}
