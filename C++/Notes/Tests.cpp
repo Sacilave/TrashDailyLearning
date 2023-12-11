@@ -31,10 +31,21 @@ public:
 
 };
 
+struct Entity {
+	static int a, b;
+	int c, d;
+	static void Print() {
+		std::cout << a << ", " << b << std::endl;
+	}
+};
 
 void main() {
-	Log log;
-	log.SetLevel(log.LogLevelWarning);
-	log.Warning("Hello!");
+	Entity en01, en02;
+
+	en01.a = 3;
+	Entity::b = 4;
+	en01.a = 4;
+	Entity::b = 5;
+	en01.Print();
 
 }

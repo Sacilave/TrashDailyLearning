@@ -1,3 +1,6 @@
 ﻿  Tests.cpp
-D:\TECH\C++\Notes\Tests.cpp(35,13): warning C4326: “main”的返回类型应为“int”而非“void”
-  Notes.vcxproj -> D:\TECH\C++\Notes\bin\x64\Debug\Notes.exe
+D:\TECH\C++\Notes\Tests.cpp(41,13): warning C4326: “main”的返回类型应为“int”而非“void”
+D:\TECH\C++\Notes\Tests.cpp(42,15): warning C4101: “en02”: 未引用的局部变量
+Tests.obj : error LNK2001: 无法解析的外部符号 "public: static int Entity::a" (?a@Entity@@2HA)
+Tests.obj : error LNK2001: 无法解析的外部符号 "public: static int Entity::b" (?b@Entity@@2HA)
+D:\TECH\C++\Notes\bin\x64\Debug\Notes.exe : fatal error LNK1120: 2 个无法解析的外部命令

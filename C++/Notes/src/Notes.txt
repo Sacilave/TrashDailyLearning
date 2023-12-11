@@ -38,6 +38,21 @@ C++ 异常报错：
 	一切变量根本区别为分配的内存大小，包括 char
 	使用 sizeof() 获取内存占用大小，传递参数为一个数据类型或变量
 
+static:
+	一个非全局变量，最好被声明为 static 变量，可防止在整个项目中导致重复声明等问题
+
+	在 class 和 struct 中的 static：
+		当一个 static变量 声明在 class 外时，仅可在当前 Transition Unit 中使用
+			而在 class 中，可以被整个项目中的任何实体访问(在所有实例中，此 static 变量只有一个实例)
+			但需要将 static成员 重新声明，如 classA 中声明了一个 static int a; 则在此 class 外需要使用 int classA::a;
+			:: 为访问类中成员符号
+		只有 static成员 可被在 class 外被声明 也就是 int classA::a; 这样的)
+		static方法 不能访问 非static变量，因为 static方法没有 类实例(class instance)
+		而 非static方法 拥有一个类实例，所以在类中能直接访问其他变量
+	命名规范：
+		可以将变量名前加 s_，如 s_name
+
+
 Cpp 指针(pointer)：
 	指针就是一个用于存储变量的内存地址的整数，本身会占用内存空间
 	&变量名  用于取变量地址
@@ -72,7 +87,7 @@ Cpp 引用(reference):
 
 Cpp 类(class)：
 	Class 被 Instantiate 为一个 Object
-	在CPP的class的成员命名：
+	在CPP的class的成员命名规范：
 		对于一个 private 成员：变量名中常以 m_ 开头。比如一个变量 length，命名为：m_length;
 	新建一个 class：
 		class Player
