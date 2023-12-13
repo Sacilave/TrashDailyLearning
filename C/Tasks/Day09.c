@@ -18,7 +18,7 @@ void d9Rank() {
 		else res += arr[i];
 	}
 	res /= 11;
-	printf("%d", res);
+	printf("%d\n", res);
 }
 
 // 二维数组排列
@@ -26,6 +26,7 @@ void d9LayoutArr() {
 	int arr[3][4] = {0};
 	for (int i = 0; i < 3; i++) { for (int j = 0; j < 4; j++) { scanf("%d", &arr[i][j]);} }
 	for (int i = 0; i < 3; i++) { for (int j = 0; j < 4; j++) { printf("%2d\t", arr[i][j]); } printf("\n"); }
+	printf("\n");
 }
 
 // 转置
@@ -37,6 +38,7 @@ void d9T() {
 	for (int i = 0; i < 3; i++) { for (int j = 0; j < 2; j++) { arrT[i][j] = arr[j][i]; } }  // T
 	printf("array B: \n");
 	for (int i = 0; i < 3; i++) { for (int j = 0; j < 2; j++) { printf("%6d", arrT[i][j]); } printf("\n"); }  // 限位为6时刚好输出的缩进跟题目中一模一样QWQ
+	printf("\n");
 }
 
 // Arr max
@@ -78,6 +80,7 @@ void d9OddDelete() {  // abcde这样排列的数据输入会导致没一个能满足下标和值均为非
 		else str[i] = temp;
 	}
 	for (int i = 0; i < length; i++) { printf("%c ", str[i]); }
+	printf("\n");
 }
 
 // arr size compare
@@ -101,21 +104,23 @@ void d9ArrSizeCmp() {
 
 // login 
 int d9LoginJudge() {
-	char pwd[] = "adninistrators"; int flag = 1;
+	char pwd[] = "administrators"; int flag = 1;
 	for (int i = 0; i < 14; i++)
 	{
 		char temp;
 		scanf("%c", &temp);
-		if (temp != pwd[i]) flag = 0;
+		if (temp != pwd[i] && temp != '\n') return 0;
 	}
-	return flag;
+	return 1;
 }
 void d9Login() {
+	char temp1[20];
 	printf("username: 123\nEnter password: ");
 	if (d9LoginJudge() == 1) printf("OK\n");
 	else {
 		printf("Invalid password\n");
-		printf("Enter passvord, again\n");
+		printf("Enter password, again: ");
+		scanf("%s\n", &temp1);  // 突然发现，因为 scanf 是通过删除缓冲区的方式读取，假如获取10次char，但是我输入了20个，那么重新一次的循环中依旧会重新读取，所以重新获取一次输入，清空缓冲区
 		d9Login();
 	}
 }
